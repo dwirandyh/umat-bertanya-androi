@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Umat Bertanya</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="terpopuler">Riwayat Pencarian</string>
+    <string name="hint_cari">Cari</string>
+    <string name="menu_daftar_bacaan">Daftar Bacaan</string>
+    <string name="menu_riwayat">Riwayat</string>
+</resources>

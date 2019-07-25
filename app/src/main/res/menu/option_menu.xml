@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_ubah_nama"
+        android:title="Ubah Nama"
+        appcompat:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_hapus"
+        android:title="Hapus"
+        appcompat:showAsAction="ifRoom|withText" />
+</menu>

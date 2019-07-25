@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/expand_button"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        >
+        <TextView
+            android:id="@+id/tvNama"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:text="Title"
+            android:padding="16dp" />
+
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_right"
+            android:layout_gravity="center"
+            android:tint="@color/colorPrimaryDark"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <net.cachapa.expandablelayout.ExpandableLayout
+        android:id="@+id/expandable_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:el_duration="0"
+        app:el_expanded="false"
+        >
+
+        <WebView
+            android:id="@+id/isi_mazhab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="0dp" />
+
+    </net.cachapa.expandablelayout.ExpandableLayout>
+
+</LinearLayout>
