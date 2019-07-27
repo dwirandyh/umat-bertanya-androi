@@ -86,7 +86,11 @@ public class ArtikelAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             artikel item = this.items.get(position);
             itemHolder.judul.setText(item.getJudul());
             if (item.getDeskripsi() != null){
-                itemHolder.deskripsi.setText(Html.fromHtml(item.getDeskripsi()).subSequence(0, 200), TextView.BufferType.SPANNABLE);
+                if (item.getDeskripsi().length() > 200){
+                    itemHolder.deskripsi.setText(Html.fromHtml(item.getDeskripsi().substring(0, 200)), TextView.BufferType.SPANNABLE);
+                }else{
+                    itemHolder.deskripsi.setText(Html.fromHtml(item.getDeskripsi()), TextView.BufferType.SPANNABLE);
+                }
             }else{
                 itemHolder.deskripsi.setVisibility(View.GONE);
             }

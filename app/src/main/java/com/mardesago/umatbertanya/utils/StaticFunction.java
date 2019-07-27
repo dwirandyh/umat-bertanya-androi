@@ -9,7 +9,7 @@ import android.view.View;
 
 public class StaticFunction {
 
-    public static final String BASE_URL = "http://192.168.43.3/";
+    public static final String BASE_URL = "http://umat.ldpfilehost.web.id/";
 
     public static void showSnackBar(View view, CharSequence charSequence) {
         Snackbar snackbar = Snackbar
