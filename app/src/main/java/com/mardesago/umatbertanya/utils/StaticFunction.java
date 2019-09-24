@@ -1,6 +1,6 @@
 package com.mardesago.umatbertanya.utils;
 
-import android.support.design.widget.Snackbar;
+import com.google.android.material.snackbar.Snackbar;
 import android.view.View;
 
 /**
@@ -9,7 +9,7 @@ import android.view.View;
 
 public class StaticFunction {
 
-    public static final String BASE_URL = "http://umat.ldpfilehost.web.id/";
+    static final String BASE_URL = "http://umatbertanya.dwirandyh.com/";
 
     public static void showSnackBar(View view, CharSequence charSequence) {
         Snackbar snackbar = Snackbar

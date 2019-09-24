@@ -1,29 +1,21 @@
 package com.mardesago.umatbertanya.activity;
 
-import android.app.SearchManager;
-import android.content.Context;
-import android.support.constraint.ConstraintLayout;
-import android.support.v4.view.MenuItemCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.view.MenuItemCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.SearchView;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.SearchView;
 import android.text.TextUtils;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.mardesago.umatbertanya.R;
 import com.mardesago.umatbertanya.adapter.DaftarBacaanAdapter;
-import com.mardesago.umatbertanya.adapter.TerpopulerAdapter;
 import com.mardesago.umatbertanya.model.daftarbacaan;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import butterknife.BindDimen;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import io.realm.Realm;

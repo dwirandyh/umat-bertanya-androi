@@ -2,28 +2,24 @@ package com.mardesago.umatbertanya.activity;
 
 import android.app.ProgressDialog;
 import android.os.Handler;
-import android.support.constraint.ConstraintLayout;
-import android.support.v7.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.MenuItem;
 import android.view.View;
 
 import com.mardesago.umatbertanya.R;
 import com.mardesago.umatbertanya.adapter.ArtikelAdapter;
-import com.mardesago.umatbertanya.adapter.ReferensiAdapter;
-import com.mardesago.umatbertanya.adapter.TerpopulerAdapter;
 import com.mardesago.umatbertanya.model.artikel;
 import com.mardesago.umatbertanya.model.cari;
-import com.mardesago.umatbertanya.model.referensi;
 import com.mardesago.umatbertanya.service.ArtikelService;
 import com.mardesago.umatbertanya.utils.Injector;
 import com.mardesago.umatbertanya.utils.StaticFunction;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;

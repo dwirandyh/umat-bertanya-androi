@@ -2,9 +2,9 @@ package com.mardesago.umatbertanya.adapter;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,17 +14,12 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.mardesago.umatbertanya.R;
 import com.mardesago.umatbertanya.activity.DetailArtikelActivity;
 import com.mardesago.umatbertanya.activity.DetailMazhabActivity;
-import com.mardesago.umatbertanya.model.artikel;
-import com.mardesago.umatbertanya.model.daftarbacaan;
 import com.mardesago.umatbertanya.model.daftarbacaan;
 import com.mardesago.umatbertanya.utils.StaticFunction;
-
-import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -34,7 +29,6 @@ import io.realm.OrderedRealmCollection;
 import io.realm.Realm;
 import io.realm.RealmQuery;
 import io.realm.RealmRecyclerViewAdapter;
-import io.realm.RealmResults;
 
 /**
  * Created by Dwi Randy Herdinanto on 11/3/2017.

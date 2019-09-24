@@ -1,23 +1,16 @@
 package com.mardesago.umatbertanya.dialog;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomSheetBehavior;
-import android.support.design.widget.BottomSheetDialog;
-import android.support.v7.app.AlertDialog;
+import androidx.annotation.NonNull;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
+import androidx.appcompat.app.AlertDialog;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
 import com.mardesago.umatbertanya.R;
-import com.mardesago.umatbertanya.model.artikel;
-import com.mardesago.umatbertanya.model.daftarbacaan;
 import com.mardesago.umatbertanya.model.mazhab;
-import com.mardesago.umatbertanya.utils.StaticFunction;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

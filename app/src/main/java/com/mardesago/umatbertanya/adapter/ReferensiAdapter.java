@@ -1,13 +1,12 @@
 package com.mardesago.umatbertanya.adapter;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.mardesago.umatbertanya.R;
-import com.mardesago.umatbertanya.model.referensi;
 import com.mardesago.umatbertanya.model.referensi;
 
 import java.util.List;

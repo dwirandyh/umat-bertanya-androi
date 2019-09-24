@@ -1,9 +1,8 @@
 package com.mardesago.umatbertanya.adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Color;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,15 +14,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.mardesago.umatbertanya.R;
-import com.mardesago.umatbertanya.activity.DetailMazhabActivity;
 import com.mardesago.umatbertanya.model.mazhab;
 
 import net.cachapa.expandablelayout.ExpandableLayout;
 
 import java.util.List;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 /**
  * Created by Dwi Randy Herdinanto on 11/3/2017.

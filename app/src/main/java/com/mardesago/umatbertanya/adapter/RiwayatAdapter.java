@@ -1,31 +1,22 @@
 package com.mardesago.umatbertanya.adapter;
 
 import android.content.Intent;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.PopupMenu;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.mardesago.umatbertanya.R;
 import com.mardesago.umatbertanya.activity.DetailArtikelActivity;
 import com.mardesago.umatbertanya.activity.DetailMazhabActivity;
-import com.mardesago.umatbertanya.model.daftarbacaan;
 import com.mardesago.umatbertanya.model.riwayat;
 import com.mardesago.umatbertanya.utils.StaticFunction;
 
-import java.util.List;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 import io.realm.Case;
-import io.realm.OrderedCollectionChangeSet;
 import io.realm.OrderedRealmCollection;
 import io.realm.Realm;
 import io.realm.RealmQuery;

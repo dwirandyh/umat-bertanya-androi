@@ -1,18 +1,16 @@
 package com.mardesago.umatbertanya.adapter;
 
 import android.content.Intent;
-import android.support.annotation.BinderThread;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.BinderThread;
+import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.mardesago.umatbertanya.R;
-import com.mardesago.umatbertanya.activity.DetailArtikelActivity;
 import com.mardesago.umatbertanya.activity.HasilPencarianActivity;
-import com.mardesago.umatbertanya.model.artikel;
 import com.mardesago.umatbertanya.model.riwayatpencarian;
 
 import java.util.ArrayList;
